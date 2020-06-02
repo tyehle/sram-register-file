@@ -506,9 +506,10 @@ L Device:Q_NMOS_GSD Q3
 U 1 1 5EB624AC
 P 5450 5150
 F 0 "Q3" H 5656 5104 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 5656 5195 50  0000 L CNN
+F 1 "NMOS_GSD" H 5656 5195 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5650 5250 50  0001 C CNN
 F 3 "~" H 5450 5150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 5450 5150 50  0001 C CNN "Link"
 	1    5450 5150
 	-1   0    0    -1  
 $EndComp
@@ -517,9 +518,10 @@ L Device:Q_NMOS_GSD Q4
 U 1 1 5EB62535
 P 6050 5150
 F 0 "Q4" H 6255 5196 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 6255 5105 50  0000 L CNN
+F 1 "NMOS_GSD" H 6255 5105 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6250 5250 50  0001 C CNN
 F 3 "~" H 6050 5150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 6050 5150 50  0001 C CNN "Link"
 	1    6050 5150
 	1    0    0    -1  
 $EndComp
@@ -528,9 +530,10 @@ L Device:Q_PMOS_GSD Q1
 U 1 1 5EB627C1
 P 5450 4450
 F 0 "Q1" H 5656 4404 50  0000 L CNN
-F 1 "Q_PMOS_GSD" H 5656 4495 50  0000 L CNN
+F 1 "PMOS_GSD" H 5656 4495 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5650 4550 50  0001 C CNN
 F 3 "~" H 5450 4450 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/BSS84-7-F" H 5450 4450 50  0001 C CNN "Link"
 	1    5450 4450
 	-1   0    0    1   
 $EndComp
@@ -539,9 +542,10 @@ L Device:Q_NMOS_GSD Q8
 U 1 1 5EDB3881
 P 10350 2500
 F 0 "Q8" V 10600 2500 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 10691 2500 50  0000 C CNN
+F 1 "NMOS_GSD" V 10691 2500 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10550 2600 50  0001 C CNN
 F 3 "~" H 10350 2500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 10350 2500 50  0001 C CNN "Link"
 	1    10350 2500
 	0    -1   1    0   
 $EndComp
@@ -550,9 +554,10 @@ L Device:Q_PMOS_GSD Q2
 U 1 1 5EB628F9
 P 6050 4450
 F 0 "Q2" H 6256 4496 50  0000 L CNN
-F 1 "Q_PMOS_GSD" H 6256 4405 50  0000 L CNN
+F 1 "PMOS_GSD" H 6256 4405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6250 4550 50  0001 C CNN
 F 3 "~" H 6050 4450 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/BSS84-7-F" H 6050 4450 50  0001 C CNN "Link"
 	1    6050 4450
 	1    0    0    1   
 $EndComp
@@ -561,9 +566,10 @@ L Device:LED D8
 U 1 1 5EDE3F20
 P 9800 2150
 F 0 "D8" V 9839 2033 50  0000 R CNN
-F 1 "LED" V 9748 2033 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 2150 50  0001 C CNN
-F 3 "~" H 9800 2150 50  0001 C CNN
+F 1 " " V 9748 2033 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 2150 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9800 2150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9800 2150 50  0001 C CNN "Link"
 	1    9800 2150
 	0    -1   -1   0   
 $EndComp
@@ -572,7 +578,7 @@ L Device:R_US R8
 U 1 1 5EDE44BC
 P 9800 2450
 F 0 "R8" H 9868 2496 50  0000 L CNN
-F 1 "R_US" H 9868 2405 50  0000 L CNN
+F 1 " " H 9868 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9840 2440 50  0001 C CNN
 F 3 "~" H 9800 2450 50  0001 C CNN
 	1    9800 2450
@@ -583,9 +589,10 @@ L Device:LED D7
 U 1 1 5EDE7FB6
 P 9400 2150
 F 0 "D7" V 9439 2033 50  0000 R CNN
-F 1 "LED" V 9348 2033 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 2150 50  0001 C CNN
-F 3 "~" H 9400 2150 50  0001 C CNN
+F 1 " " V 9348 2033 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 2150 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9400 2150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9400 2150 50  0001 C CNN "Link"
 	1    9400 2150
 	0    -1   -1   0   
 $EndComp
@@ -594,7 +601,7 @@ L Device:R_US R7
 U 1 1 5EDE7FBC
 P 9400 2450
 F 0 "R7" H 9468 2496 50  0000 L CNN
-F 1 "R_US" H 9468 2405 50  0000 L CNN
+F 1 " " H 9468 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9440 2440 50  0001 C CNN
 F 3 "~" H 9400 2450 50  0001 C CNN
 	1    9400 2450
@@ -605,7 +612,7 @@ L Device:R_US R6
 U 1 1 5EDE9451
 P 9000 2450
 F 0 "R6" H 9068 2496 50  0000 L CNN
-F 1 "R_US" H 9068 2405 50  0000 L CNN
+F 1 " " H 9068 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9040 2440 50  0001 C CNN
 F 3 "~" H 9000 2450 50  0001 C CNN
 	1    9000 2450
@@ -616,9 +623,10 @@ L Device:LED D6
 U 1 1 5EDE944B
 P 9000 2150
 F 0 "D6" V 9039 2033 50  0000 R CNN
-F 1 "LED" V 8948 2033 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 2150 50  0001 C CNN
-F 3 "~" H 9000 2150 50  0001 C CNN
+F 1 " " V 8948 2033 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 2150 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9000 2150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9000 2150 50  0001 C CNN "Link"
 	1    9000 2150
 	0    -1   -1   0   
 $EndComp
@@ -627,9 +635,10 @@ L Device:LED D5
 U 1 1 5EDFC356
 P 8600 2150
 F 0 "D5" V 8639 2033 50  0000 R CNN
-F 1 "LED" V 8548 2033 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8600 2150 50  0001 C CNN
-F 3 "~" H 8600 2150 50  0001 C CNN
+F 1 " " V 8548 2033 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8600 2150 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 8600 2150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 8600 2150 50  0001 C CNN "Link"
 	1    8600 2150
 	0    -1   -1   0   
 $EndComp
@@ -638,7 +647,7 @@ L Device:R_US R5
 U 1 1 5EDFC35C
 P 8600 2450
 F 0 "R5" H 8668 2496 50  0000 L CNN
-F 1 "R_US" H 8668 2405 50  0000 L CNN
+F 1 " " H 8668 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8640 2440 50  0001 C CNN
 F 3 "~" H 8600 2450 50  0001 C CNN
 	1    8600 2450
@@ -649,9 +658,10 @@ L Device:Q_NMOS_GSD Q9
 U 1 1 5EE40E0B
 P 10350 3600
 F 0 "Q9" V 10600 3600 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 10691 3600 50  0000 C CNN
+F 1 "NMOS_GSD" V 10691 3600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10550 3700 50  0001 C CNN
 F 3 "~" H 10350 3600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 10350 3600 50  0001 C CNN "Link"
 	1    10350 3600
 	0    -1   1    0   
 $EndComp
@@ -660,9 +670,10 @@ L Device:LED D12
 U 1 1 5EE40E19
 P 9800 3250
 F 0 "D12" V 9839 3133 50  0000 R CNN
-F 1 "LED" V 9748 3133 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 3250 50  0001 C CNN
-F 3 "~" H 9800 3250 50  0001 C CNN
+F 1 " " V 9748 3133 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 3250 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9800 3250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9800 3250 50  0001 C CNN "Link"
 	1    9800 3250
 	0    -1   -1   0   
 $EndComp
@@ -671,7 +682,7 @@ L Device:R_US R12
 U 1 1 5EE40E1F
 P 9800 3550
 F 0 "R12" H 9868 3596 50  0000 L CNN
-F 1 "R_US" H 9868 3505 50  0000 L CNN
+F 1 " " H 9868 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9840 3540 50  0001 C CNN
 F 3 "~" H 9800 3550 50  0001 C CNN
 	1    9800 3550
@@ -682,9 +693,10 @@ L Device:LED D11
 U 1 1 5EE40E25
 P 9400 3250
 F 0 "D11" V 9439 3133 50  0000 R CNN
-F 1 "LED" V 9348 3133 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 3250 50  0001 C CNN
-F 3 "~" H 9400 3250 50  0001 C CNN
+F 1 " " V 9348 3133 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 3250 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9400 3250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9400 3250 50  0001 C CNN "Link"
 	1    9400 3250
 	0    -1   -1   0   
 $EndComp
@@ -693,7 +705,7 @@ L Device:R_US R11
 U 1 1 5EE40E2B
 P 9400 3550
 F 0 "R11" H 9468 3596 50  0000 L CNN
-F 1 "R_US" H 9468 3505 50  0000 L CNN
+F 1 " " H 9468 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9440 3540 50  0001 C CNN
 F 3 "~" H 9400 3550 50  0001 C CNN
 	1    9400 3550
@@ -704,7 +716,7 @@ L Device:R_US R10
 U 1 1 5EE40E31
 P 9000 3550
 F 0 "R10" H 9068 3596 50  0000 L CNN
-F 1 "R_US" H 9068 3505 50  0000 L CNN
+F 1 " " H 9068 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9040 3540 50  0001 C CNN
 F 3 "~" H 9000 3550 50  0001 C CNN
 	1    9000 3550
@@ -715,9 +727,10 @@ L Device:LED D10
 U 1 1 5EE40E37
 P 9000 3250
 F 0 "D10" V 9039 3133 50  0000 R CNN
-F 1 "LED" V 8948 3133 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 3250 50  0001 C CNN
-F 3 "~" H 9000 3250 50  0001 C CNN
+F 1 " " V 8948 3133 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 3250 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9000 3250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9000 3250 50  0001 C CNN "Link"
 	1    9000 3250
 	0    -1   -1   0   
 $EndComp
@@ -726,9 +739,10 @@ L Device:LED D9
 U 1 1 5EE40E3D
 P 8600 3250
 F 0 "D9" V 8639 3133 50  0000 R CNN
-F 1 "LED" V 8548 3133 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8600 3250 50  0001 C CNN
-F 3 "~" H 8600 3250 50  0001 C CNN
+F 1 " " V 8548 3133 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8600 3250 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 8600 3250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 8600 3250 50  0001 C CNN "Link"
 	1    8600 3250
 	0    -1   -1   0   
 $EndComp
@@ -737,7 +751,7 @@ L Device:R_US R9
 U 1 1 5EE40E43
 P 8600 3550
 F 0 "R9" H 8668 3596 50  0000 L CNN
-F 1 "R_US" H 8668 3505 50  0000 L CNN
+F 1 " " H 8668 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8640 3540 50  0001 C CNN
 F 3 "~" H 8600 3550 50  0001 C CNN
 	1    8600 3550
@@ -748,9 +762,10 @@ L Device:Q_NMOS_GSD Q11
 U 1 1 5EE9BE7E
 P 10350 5800
 F 0 "Q11" V 10600 5800 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 10691 5800 50  0000 C CNN
+F 1 "NMOS_GSD" V 10691 5800 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10550 5900 50  0001 C CNN
 F 3 "~" H 10350 5800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 10350 5800 50  0001 C CNN "Link"
 	1    10350 5800
 	0    -1   1    0   
 $EndComp
@@ -759,9 +774,10 @@ L Device:LED D16
 U 1 1 5EE9BEAA
 P 9000 5450
 F 0 "D16" V 9039 5333 50  0000 R CNN
-F 1 "LED" V 8948 5333 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 5450 50  0001 C CNN
-F 3 "~" H 9000 5450 50  0001 C CNN
+F 1 " " V 8948 5333 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 5450 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9000 5450 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9000 5450 50  0001 C CNN "Link"
 	1    9000 5450
 	0    -1   -1   0   
 $EndComp
@@ -770,7 +786,7 @@ L Device:R_US R16
 U 1 1 5EE9BEA4
 P 9000 5750
 F 0 "R16" H 9068 5796 50  0000 L CNN
-F 1 "R_US" H 9068 5705 50  0000 L CNN
+F 1 " " H 9068 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9040 5740 50  0001 C CNN
 F 3 "~" H 9000 5750 50  0001 C CNN
 	1    9000 5750
@@ -781,7 +797,7 @@ L Device:R_US R17
 U 1 1 5EE9BE9E
 P 9400 5750
 F 0 "R17" H 9468 5796 50  0000 L CNN
-F 1 "R_US" H 9468 5705 50  0000 L CNN
+F 1 " " H 9468 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9440 5740 50  0001 C CNN
 F 3 "~" H 9400 5750 50  0001 C CNN
 	1    9400 5750
@@ -792,9 +808,10 @@ L Device:LED D17
 U 1 1 5EE9BE98
 P 9400 5450
 F 0 "D17" V 9439 5333 50  0000 R CNN
-F 1 "LED" V 9348 5333 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 5450 50  0001 C CNN
-F 3 "~" H 9400 5450 50  0001 C CNN
+F 1 " " V 9348 5333 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 5450 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9400 5450 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9400 5450 50  0001 C CNN "Link"
 	1    9400 5450
 	0    -1   -1   0   
 $EndComp
@@ -803,7 +820,7 @@ L Device:R_US R18
 U 1 1 5EE9BE92
 P 9800 5750
 F 0 "R18" H 9868 5796 50  0000 L CNN
-F 1 "R_US" H 9868 5705 50  0000 L CNN
+F 1 " " H 9868 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9840 5740 50  0001 C CNN
 F 3 "~" H 9800 5750 50  0001 C CNN
 	1    9800 5750
@@ -814,9 +831,10 @@ L Device:LED D18
 U 1 1 5EE9BE8C
 P 9800 5450
 F 0 "D18" V 9839 5333 50  0000 R CNN
-F 1 "LED" V 9748 5333 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 5450 50  0001 C CNN
-F 3 "~" H 9800 5450 50  0001 C CNN
+F 1 " " V 9748 5333 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 5450 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9800 5450 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9800 5450 50  0001 C CNN "Link"
 	1    9800 5450
 	0    -1   -1   0   
 $EndComp
@@ -825,9 +843,10 @@ L Device:Q_NMOS_GSD Q7
 U 1 1 5EECC460
 P 10350 1400
 F 0 "Q7" V 10600 1400 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 10691 1400 50  0000 C CNN
+F 1 "NMOS_GSD" V 10691 1400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10550 1500 50  0001 C CNN
 F 3 "~" H 10350 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 10350 1400 50  0001 C CNN "Link"
 	1    10350 1400
 	0    -1   1    0   
 $EndComp
@@ -836,9 +855,10 @@ L Device:LED D4
 U 1 1 5EECC46E
 P 9800 1050
 F 0 "D4" V 9839 933 50  0000 R CNN
-F 1 "LED" V 9748 933 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 1050 50  0001 C CNN
-F 3 "~" H 9800 1050 50  0001 C CNN
+F 1 " " V 9748 933 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 1050 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9800 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9800 1050 50  0001 C CNN "Link"
 	1    9800 1050
 	0    -1   -1   0   
 $EndComp
@@ -847,7 +867,7 @@ L Device:R_US R4
 U 1 1 5EECC474
 P 9800 1350
 F 0 "R4" H 9868 1396 50  0000 L CNN
-F 1 "R_US" H 9868 1305 50  0000 L CNN
+F 1 " " H 9868 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9840 1340 50  0001 C CNN
 F 3 "~" H 9800 1350 50  0001 C CNN
 	1    9800 1350
@@ -858,9 +878,10 @@ L Device:LED D3
 U 1 1 5EECC47A
 P 9400 1050
 F 0 "D3" V 9439 933 50  0000 R CNN
-F 1 "LED" V 9348 933 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 1050 50  0001 C CNN
-F 3 "~" H 9400 1050 50  0001 C CNN
+F 1 " " V 9348 933 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 1050 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9400 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9400 1050 50  0001 C CNN "Link"
 	1    9400 1050
 	0    -1   -1   0   
 $EndComp
@@ -869,7 +890,7 @@ L Device:R_US R3
 U 1 1 5EECC480
 P 9400 1350
 F 0 "R3" H 9468 1396 50  0000 L CNN
-F 1 "R_US" H 9468 1305 50  0000 L CNN
+F 1 " " H 9468 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9440 1340 50  0001 C CNN
 F 3 "~" H 9400 1350 50  0001 C CNN
 	1    9400 1350
@@ -880,7 +901,7 @@ L Device:R_US R2
 U 1 1 5EECC486
 P 9000 1350
 F 0 "R2" H 9068 1396 50  0000 L CNN
-F 1 "R_US" H 9068 1305 50  0000 L CNN
+F 1 " " H 9068 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9040 1340 50  0001 C CNN
 F 3 "~" H 9000 1350 50  0001 C CNN
 	1    9000 1350
@@ -891,9 +912,10 @@ L Device:LED D2
 U 1 1 5EECC48C
 P 9000 1050
 F 0 "D2" V 9039 933 50  0000 R CNN
-F 1 "LED" V 8948 933 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 1050 50  0001 C CNN
-F 3 "~" H 9000 1050 50  0001 C CNN
+F 1 " " V 8948 933 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 1050 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9000 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9000 1050 50  0001 C CNN "Link"
 	1    9000 1050
 	0    -1   -1   0   
 $EndComp
@@ -902,9 +924,10 @@ L Device:LED D1
 U 1 1 5EECC492
 P 8600 1050
 F 0 "D1" V 8639 933 50  0000 R CNN
-F 1 "LED" V 8548 933 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8600 1050 50  0001 C CNN
-F 3 "~" H 8600 1050 50  0001 C CNN
+F 1 " " V 8548 933 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8600 1050 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 8600 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 8600 1050 50  0001 C CNN "Link"
 	1    8600 1050
 	0    -1   -1   0   
 $EndComp
@@ -913,7 +936,7 @@ L Device:R_US R1
 U 1 1 5EECC498
 P 8600 1350
 F 0 "R1" H 8668 1396 50  0000 L CNN
-F 1 "R_US" H 8668 1305 50  0000 L CNN
+F 1 " " H 8668 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8640 1340 50  0001 C CNN
 F 3 "~" H 8600 1350 50  0001 C CNN
 	1    8600 1350
@@ -947,8 +970,8 @@ U 2 1 5EB65515
 P 1700 2600
 F 0 "SW2" H 1700 2275 50  0000 C CNN
 F 1 "SW_Input" H 1700 2366 50  0000 C CNN
-F 2 "footprints:Switch_DPDT_THT_CK" H 1700 2600 50  0001 C CNN
-F 3 "" H 1700 2600 50  0001 C CNN
+F 2 "#footprints:Switch_DPDT_THT_CK" H 1700 2600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/60/js-1841892.pdf" H 1700 2600 50  0001 C CNN
 F 4 "https://www.mouser.com/ProductDetail/JS202011CQN" H -850 200 50  0001 C CNN "Link"
 	2    1700 2600
 	-1   0    0    1   
@@ -959,8 +982,8 @@ U 1 1 5EB65481
 P 1700 2000
 F 0 "SW2" H 1700 1675 50  0000 C CNN
 F 1 "SW_Input" H 1700 1766 50  0000 C CNN
-F 2 "footprints:Switch_DPDT_THT_CK" H 1700 2000 50  0001 C CNN
-F 3 "" H 1700 2000 50  0001 C CNN
+F 2 "#footprints:Switch_DPDT_THT_CK" H 1700 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/60/js-1841892.pdf" H 1700 2000 50  0001 C CNN
 F 4 "https://www.mouser.com/ProductDetail/JS202011CQN" H 1700 2000 50  0001 C CNN "Link"
 	1    1700 2000
 	-1   0    0    1   
@@ -970,9 +993,10 @@ L Device:Q_NMOS_GSD Q5
 U 1 1 5EB625B3
 P 4250 4600
 F 0 "Q5" V 4500 4600 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 4591 4600 50  0000 C CNN
+F 1 "NMOS_GSD" V 4591 4600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4450 4700 50  0001 C CNN
 F 3 "~" H 4250 4600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 4250 4600 50  0001 C CNN "Link"
 	1    4250 4600
 	0    1    1    0   
 $EndComp
@@ -981,9 +1005,10 @@ L Device:LED D13
 U 1 1 5EE95F79
 P 9000 4350
 F 0 "D13" V 9039 4233 50  0000 R CNN
-F 1 "LED" V 8948 4233 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 4350 50  0001 C CNN
-F 3 "~" H 9000 4350 50  0001 C CNN
+F 1 " " V 8948 4233 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9000 4350 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9000 4350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9000 4350 50  0001 C CNN "Link"
 	1    9000 4350
 	0    -1   -1   0   
 $EndComp
@@ -992,7 +1017,7 @@ L Device:R_US R13
 U 1 1 5EE95F73
 P 9000 4650
 F 0 "R13" H 9068 4696 50  0000 L CNN
-F 1 "R_US" H 9068 4605 50  0000 L CNN
+F 1 " " H 9068 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9040 4640 50  0001 C CNN
 F 3 "~" H 9000 4650 50  0001 C CNN
 	1    9000 4650
@@ -1003,7 +1028,7 @@ L Device:R_US R14
 U 1 1 5EE95F6D
 P 9400 4650
 F 0 "R14" H 9468 4696 50  0000 L CNN
-F 1 "R_US" H 9468 4605 50  0000 L CNN
+F 1 " " H 9468 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9440 4640 50  0001 C CNN
 F 3 "~" H 9400 4650 50  0001 C CNN
 	1    9400 4650
@@ -1014,9 +1039,10 @@ L Device:LED D14
 U 1 1 5EE95F67
 P 9400 4350
 F 0 "D14" V 9439 4233 50  0000 R CNN
-F 1 "LED" V 9348 4233 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 4350 50  0001 C CNN
-F 3 "~" H 9400 4350 50  0001 C CNN
+F 1 " " V 9348 4233 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9400 4350 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9400 4350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9400 4350 50  0001 C CNN "Link"
 	1    9400 4350
 	0    -1   -1   0   
 $EndComp
@@ -1025,7 +1051,7 @@ L Device:R_US R15
 U 1 1 5EE95F61
 P 9800 4650
 F 0 "R15" H 9868 4696 50  0000 L CNN
-F 1 "R_US" H 9868 4605 50  0000 L CNN
+F 1 " " H 9868 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9840 4640 50  0001 C CNN
 F 3 "~" H 9800 4650 50  0001 C CNN
 	1    9800 4650
@@ -1036,9 +1062,10 @@ L Device:LED D15
 U 1 1 5EE95F5B
 P 9800 4350
 F 0 "D15" V 9839 4233 50  0000 R CNN
-F 1 "LED" V 9748 4233 50  0000 R CNN
-F 2 "footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 4350 50  0001 C CNN
-F 3 "~" H 9800 4350 50  0001 C CNN
+F 1 " " V 9748 4233 50  0000 R CNN
+F 2 "#footprints:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 9800 4350 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-254/LTST-C230KSKT.pdf" H 9800 4350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/859-LTST-C230KSKT" H 9800 4350 50  0001 C CNN "Link"
 	1    9800 4350
 	0    -1   -1   0   
 $EndComp
@@ -1047,9 +1074,10 @@ L Device:Q_NMOS_GSD Q10
 U 1 1 5EE95F4D
 P 10350 4700
 F 0 "Q10" V 10600 4700 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 10691 4700 50  0000 C CNN
+F 1 "NMOS_GSD" V 10691 4700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10550 4800 50  0001 C CNN
 F 3 "~" H 10350 4700 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 10350 4700 50  0001 C CNN "Link"
 	1    10350 4700
 	0    -1   1    0   
 $EndComp
@@ -1058,9 +1086,10 @@ L Device:Q_NMOS_GSD Q6
 U 1 1 5EB62577
 P 7250 4750
 F 0 "Q6" V 7500 4750 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 7591 4750 50  0000 C CNN
+F 1 "NMOS_GSD" V 7591 4750 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7450 4850 50  0001 C CNN
 F 3 "~" H 7250 4750 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/2N7002-7-F" H 7250 4750 50  0001 C CNN "Link"
 	1    7250 4750
 	0    -1   1    0   
 $EndComp
@@ -1118,8 +1147,9 @@ U 1 1 5F30DEF3
 P 1700 6400
 F 0 "J1" H 1757 6867 50  0000 C CNN
 F 1 "USB_B_Micro" H 1757 6776 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1850 6350 50  0001 C CNN
-F 3 "~" H 1850 6350 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1850 6350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 1850 6350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/105017-0001" H 1700 6400 50  0001 C CNN "Link"
 	1    1700 6400
 	1    0    0    -1  
 $EndComp
@@ -1163,6 +1193,7 @@ F 0 "U1" H 2975 1825 50  0000 C CNN
 F 1 "MC74VHC1G125" H 2975 1734 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3000 2000 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MC74VHC1G125-D.PDF" H 3000 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/MC74VHC1G125DBVT1G" H 3000 2000 50  0001 C CNN "Link"
 	1    3000 2000
 	1    0    0    -1  
 $EndComp
@@ -1174,6 +1205,7 @@ F 0 "U2" H 3025 2425 50  0000 C CNN
 F 1 "MC74VHC1G125" H 3025 2334 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3050 2600 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MC74VHC1G125-D.PDF" H 3050 2600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/MC74VHC1G125DBVT1G" H 3050 2600 50  0001 C CNN "Link"
 	1    3050 2600
 	1    0    0    -1  
 $EndComp
@@ -1184,8 +1216,8 @@ P 1700 3850
 F 0 "SW3" H 1700 4135 50  0000 C CNN
 F 1 "SW_Enable" H 1700 4044 50  0000 C CNN
 F 2 "#footprints:Switch_DPDT_THT_CK" H 1700 3850 50  0001 C CNN
-F 3 "~" H 1700 3850 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/JS102011SAQN" H 1700 3850 50  0001 C CNN "Link"
+F 3 "https://www.mouser.com/datasheet/2/60/js-1841892.pdf" H 1700 3850 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/JS202011CQN" H 1700 3850 50  0001 C CNN "Link"
 	1    1700 3850
 	-1   0    0    -1  
 $EndComp
@@ -1200,8 +1232,8 @@ L Connector_Generic:Conn_01x03 J2
 U 1 1 5EE5DEAF
 P 2750 6300
 F 0 "J2" H 2668 6617 50  0000 C CNN
-F 1 "Conn_01x03" H 2668 6526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2750 6300 50  0001 C CNN
+F 1 "PowerHeader" H 2668 6526 50  0000 C CNN
+F 2 "#footprints:PowerHeader_P2.54mm" H 2750 6300 50  0001 C CNN
 F 3 "~" H 2750 6300 50  0001 C CNN
 	1    2750 6300
 	-1   0    0    -1  
@@ -1214,6 +1246,7 @@ F 0 "C1" H 3236 6696 50  0000 R CNN
 F 1 "C" H 3236 6605 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3388 6500 50  0001 C CNN
 F 3 "~" H 3350 6650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/C0805C106K9PACTU" H 3350 6650 50  0001 C CNN "Link"
 	1    3350 6650
 	1    0    0    -1  
 $EndComp
@@ -1225,6 +1258,7 @@ F 0 "C2" H 4265 6696 50  0000 L CNN
 F 1 "C" H 4265 6605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 6500 50  0001 C CNN
 F 3 "~" H 4150 6650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/C0805C106K9PACTU" H 4150 6650 50  0001 C CNN "Link"
 	1    4150 6650
 	1    0    0    -1  
 $EndComp
@@ -1235,7 +1269,8 @@ P 3750 6400
 F 0 "U3" H 3750 6642 50  0000 C CNN
 F 1 "LD1117S50TR" H 3750 6551 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3750 6600 50  0001 C CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 3850 6150 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/ld1117.pdf" H 3850 6150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/LD1117S50TR" H 3750 6400 50  0001 C CNN "Link"
 	1    3750 6400
 	1    0    0    -1  
 $EndComp
